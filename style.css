@@ -45,12 +45,12 @@
 .hero button {
     text-align: center;
     width: 150px;
-    height: 40px;
+    height: 50px;
     margin-top: 30px;
     background-color: transparent;
     border: solid 2px white;
     color: white;
-    border-radius: 5px;
+    border-radius: 25px;
     font-size: 15px;
 }
 
@@ -141,11 +141,16 @@
 .signup button {
     /* padding: 5px 15px; */
     width: 100px;
-    height: 50px;
-    border-radius: 5px;
+    height: 35px;
+    border-radius: 25px;
     background-color: transparent;
     border: white 2px solid;
     color: white;
+}
+
+.signup button:hover {
+    background-color: white;
+    color: black;
 }
 
 /*  */
