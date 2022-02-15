@@ -1,5 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .header-hero {
     font-family: 'Barlow', sans-serif;
     color: white;
-    background-color: rgba(0, 119, 255, 0.925);
+    background-color: black;
 }
