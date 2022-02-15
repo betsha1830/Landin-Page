@@ -1,10 +1,159 @@
-body {
-    margin: 0;
+* {
+    margin: 0; 
     padding: 0;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
 }
 
 .header-hero {
-    font-family: 'Barlow', sans-serif;
     color: white;
     background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-family: 'Russo One', sans-serif;   
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.hero {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero h1 {
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 18px;
+    font-size: 48px;
+}
+
+.hero button {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: solid 2px white;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.hero button:hover {
+    color: black;
+    background-color: white;
+}
+
+.hero img {
+    width: 450px;
+    margin-bottom: 75px;
+}
+
+.heading-description {
+    width: 50%;
+    margin-top: 100px;
+}
+
+.heading p {
+    font-size: 50px;
+}
+
+/*  */
+
+.content-one {
+    text-align: center;
+}
+
+.title h1 {
+    margin: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.card-description {
+    border: 2px solid rgb(44, 199, 255);
+    border-radius: 5px;
+    min-height: 350px;
+
+    padding: 12px;
+    align-content: space-between;
+}
+
+.icon {
+    width: 60px;
+    margin-bottom: 8px;
+}
+
+.cards h1 {
+    margin-bottom: 18px;
+}
+
+/*  */
+
+.testimonial {
+    margin-top: 50px;
+    background-color: aquamarine;
+    padding: 100px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*  */
+
+.signup {
+    /* padding: 150px; */
+    background-color: rgb(0, 153, 255);
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.signup .details {
+    width: 70%;
+}
+
+.signup button {
+    /* padding: 5px 15px; */
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+}
+
+/*  */
+
+.footer {
+    background-color: gray;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
